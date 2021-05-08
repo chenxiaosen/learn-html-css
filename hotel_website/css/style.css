@@ -16,6 +16,38 @@ h1,h2,h3 {
 p {
     margin: 10px 0;
 }
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #f4f4f4;
+    color: #f7c08a;
+}
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn-light:hover {
+    background-color: #333;
+    color: #f7c08a;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
 #navbar {
     background-color: #333;
     color:white;
@@ -54,4 +86,47 @@ p {
     background-color: #444;
     color: orange;
 
+}
+
+#showcase {
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size:44px;
+}
+
+#showcase .showcase-content p{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#home-info{
+    height: 400px;
+}
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url(../img/photo-1.jpg) no-repeat;
+    min-height: 100%;
+}
+#home-info .info-content {
+    float:right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+}
+#home-info .info-content h2{
+    margin-top: 100px;
+}
+#home-info .info-content h2{
+    margin-top: 100px;
+}
+#home-info .info-content p{
+    margin-bottom: 50px;
 }
