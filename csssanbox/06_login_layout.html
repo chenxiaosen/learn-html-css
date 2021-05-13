@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: #e0dede;
+        }
+
+        #container {
+            background-color: white;
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        #container .title {
+            text-align: center;
+            font-size: 1.6em;
+        }
+
+        #container .sub-title {
+            text-align: center;
+        }
+
+        #container .form-group {
+            margin: 10px;
+        }
+
+        #container .form-group {
+            margin: 10px 0px;
+        }
+
+        #container .form-group .label {
+            display: block;
+        }
+
+        #container .form-group .input {
+            width: 100%;
+            padding: 5px 0px;
+            margin-top: 5px;
+        }
+
+        #container .btn {
+            width: 100%;
+            background-color: darkseagreen;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            padding: 5px;
+        }
+
+        #container .btn:hover {
+            background-color: seagreen;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="title">注册</div>
+        <div class="sub-title">请填写以下信息用以注册</div>
+        <form action="#">
+            <div class="form-group">
+                <label class="label" for="nickname">昵称</label>
+                <input class="input" type="text" name="nickname">
+            </div>
+            <div class="form-group">
+                <label class="label" for="email">邮箱</label>
+                <input class="input" type="email" name="email">
+            </div>
+            <div class="form-group">
+                <label class="label" for="sex">性别</label>
+                <div style="width: 100%; display: flex;">
+                    <input style="flex:1;background: aqua;" type="radio" name="sex">男
+                    <input style="flex:1" type="radio" name="sex">女
+                    <input style="flex:1" type="radio" name="sex">其他
+                </div>
+            </div>
+
+            <button class="btn">提交</button>
+        </form>
+        <footer class="footer">注册信息</footer>
+    </div>
+</body>
+
+</html>
